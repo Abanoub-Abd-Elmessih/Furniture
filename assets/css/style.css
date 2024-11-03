@@ -1,9 +1,10 @@
 a{
     color: inherit !important;
     display: inline-block !important;
+    text-decoration: none;
 }
 /* Navbar Start */
-.active{
+.nav-item .active{
     color:white !important;
     border-bottom:solid #F9BF29 4px;
 }
@@ -21,3 +22,19 @@ a{
     background-color: #3B5D50;
 }
 /* Hero section End */
+/* Services Start */
+.border-image{
+    border: #212529 solid 4px;
+}
+.icons{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    margin: 0 0 10px 0; 
+}
+/* Services End */
