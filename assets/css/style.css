@@ -38,3 +38,29 @@ a{
     margin: 0 0 10px 0; 
 }
 /* Services End */
+/* Blog Start */
+.blog-images {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .blog-images img {
+    transition: all 0.3s;
+  }
+  
+  
+  .blog-images::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.438);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .blog-images:hover::after {
+    opacity: 1;
+  }
+  
+/* Blog End */
