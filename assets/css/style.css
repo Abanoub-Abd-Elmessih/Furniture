@@ -64,3 +64,10 @@ a{
   }
   
 /* Blog End */
+/* Contact Start */
+.bootstrap-inputs:focus {
+  border-color: #3B5D50; 
+  box-shadow: 0 0 0 0.2rem #3b5d5050;
+  outline: none;
+}
+/* Contact End */
